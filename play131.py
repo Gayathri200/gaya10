@@ -1,0 +1,11 @@
+x=int(input())
+temp=0
+while(x>0):
+  r=x%10
+  x=x//10 
+  if(r%2!=0):
+    temp=temp+r
+if(temp%2==0):
+  print("E")
+else:
+  print("O")   
